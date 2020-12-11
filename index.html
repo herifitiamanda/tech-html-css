@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Instamag</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo" href="#">Instamag</div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                            <i class="fas fa-bars"></i>
+                        </label>
+            <ul>
+                <li><a class="active" href="#">Accueil</a></li>
+                <li><a href="#galeries">Galerie</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="style">
+                <div class="home-content">
+                    <div class="t1">Bonjour et bienvenue !</div>
+                </div>
+            </div>
+        </section>
+        <!---<center>
+            <div class="cont">
+                <div class="images">
+                    <img src="image/bgd1.jpeg">
+                    <img src="image/bgd2.jpg">
+                    <img src="image/bgd3.jpeg">
+                    <img src="image/bgd4.jpeg">
+                    <img src="image/bgd5.jpg">
+                </div>
+            </div>
+        </center>
+        <script>
+            var indexValue = 0;
+
+            function slideShow() {
+                setTimeout(slideShow, 2500);
+                var x;
+                const img = document.querySelector("img");
+                for (x = 0; x < img.length; x++) {
+                    img[x].style.display = "none";
+                }
+                indexValue++;
+                if (indexValue > img.length) {
+                    indexValue = 1
+                }
+                img[indexValue - 1].style.display = "block";
+            }
+            slideShow();
+        </script>-->
+        <div class="galerie" id="galeries">
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/Abstract.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/avatar.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/bgd1.jpeg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/Abstract.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/avatar.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/bgd3.jpeg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/geometric.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/bgd5.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/bgd3.jpeg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/bgd4.jpeg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/bgd2.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="over"></div>
+                <img src="image/avatar.jpg" alt="">
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>A propos</h2>
+                <div class="content">
+                    <p>...</p>
+
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Adresse</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">InstaMag</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+261 32 67 621 25</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">insta@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Nous contacter</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">E-mail :</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message :</div>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center>
+                <span class="credit">Créé Par <a href="#">MH</a> | </span>
+                <span class="far fa-copyright"></span><span> 2020 Tout droit réservé</span>
+            </center>
+        </div>
+    </footer>
+
+</body>
+
+</html>
